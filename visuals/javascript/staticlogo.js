@@ -6,7 +6,7 @@
 var ddsitelogo={
 	setting: {orientation:4, visibleduration:0, fadeduration:[1000, 500]}, //orientation=1|2|3|4, duration=millisec or 0, fadedurations=millisecs
 	offsets: {x:10, y:10},//offset of logo relative to window corner
-	logoHTML: '<a href="http://nodoi.net/screening.html" title="nodoinews"><img src="images/nijah.png" style="width:50px; height:57px; border:0" /></a>', //HTML for logo, which is auto wrapped in DIV w/ ID="mysitelogo"
+	logoHTML: '<a href="https://legacy.nodoi.net/screening.html" title="nodoinews"><img src="images/nijah.png" style="width:50px; height:57px; border:0" /></a>', //HTML for logo, which is auto wrapped in DIV w/ ID="mysitelogo"
 	coord: {},
 
 	keepfixed:function(){
