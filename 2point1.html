@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+
+<head>
+	<title>NODOI 2:1</title>
+	<meta name="description" content="The Land, Life, and Language of Fatties" />
+	<meta name="keywords" content="fatty, no doi, nodoinet, foofa, nijah, lara schenck, proquorn, TWH, LNF/NMO, nere, e, thingsingeneral" />
+	<link rel="icon" type="type/png" href="./images/favicon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+
+	<script type="text/javascript" src="/jquery.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".accordion span").hide();
+	
+		$(".accordion h4").click(function(){
+			$(this).next("span").slideToggle(700)
+			.siblings("span:visible").slideUp(8);
+			$(this).toggleClass("active");
+			$(this).siblings("h4").removeClass("active");
+		});
+	
+	});
+	</script>
+	<link rel="stylesheet" type="text/css" href="Candela-fontfacekit/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="Cantarell-fontfacekit/stylesheet.css">
+	<style type="text/css">
+	/* style for slider */
+
+	body {
+		margin: 70px auto 100px;
+		width: 600px;
+		font-family: Verdana;
+		line-height: 1.5;
+	}
+	
+	.accordion {
+		border-bottom: solid 1px #c4c4c4;
+		margin-left: 30px;
+	}
+	
+	.accordion h4 {
+		padding: 4px 15px;
+		margin: 0;
+		font-size: 14px;
+		border: solid 1px #c4c4c4;
+		border-bottom: none;
+		cursor: pointer;
+	}
+	
+	.accordion h4:hover {
+		background-color: #e3e2e2;
+	}
+	
+	.accordion h4.active {
+		background-position: right 5px;
+	}
+	
+	.accordion span {
+		background: #fff;
+		margin: 0;
+		font-size: 13px;
+		padding: 10px 15px 20px;
+		border-left: solid 1px #c4c4c4;
+		border-right: solid 1px #c4c4c4;
+	}
+	
+	.section {
+		border-top: #666 solid 1px;
+	}
+	
+	p.small {
+		font-size: 12px;
+	}
+			
+	h3.indent {
+		margin-left: 50px;
+	}
+	
+	h3 {
+		text-shadow: #666 1px 1px 1px;
+		letter-spacing: 3px;
+	}
+	
+	h1 {
+		text-shadow: #666 2px 2px 2px;
+		font-size: 36px;
+		letter-spacing: 4px;
+	}
+	
+	code {
+		font-size: 15px;
+		color: #666;
+	}
+	
+	a {
+		text-decoration: none;
+		color: #C66E38;
+		text-shadow: none;
+	}
+	
+	a:hover {
+		color: #666;
+	}
+	</style>
+		
+</head>
+<body>	
+
+	<h1>Welcome!</h1>
+	
+	<div class="section">
+	<p>So, you want to play NODOI 2:1. Good idea! Follow the [relatively] Macintosh-centric steps below to get started.</p>
+	</div>
+	
+	<h3>Install PyGame</h3>
+	<p>To play NODOI 2:1 you will need to install a set of Python game modules called PyGame. Click on the appropriate tab to view instructions for doing so.</p>
+
+	<div class="accordion">
+
+		<h4>Mac OSX Snow Leopard</h4>
+			<span>
+				<p>It's too easy! Just download and install <a href="http://f0o.com/%7Erene/stuff/pygame-1.9.2pre-py2.6-macosx10.6.mpkg.zip">PyGame</a>.</p>	
+			</span>
+
+		<h4>Mac OSX Leopard or earlier</h4>
+
+			<span>
+			<p>This is pretty straightforward. Simply download, unzip, and install each of these in this order:</p>
+			<ol>
+				<li><a href="http://pythonmac.org/packages/py25-fat/dmg/python-2.5-macosx.dmg">python-2.5-macosx.dmg</a></li>
+				<li><a href="http://www.pygame.org/ftp/pyobjc-1.4-py2.5-macosx10.4.mpkg.zip">pyobjc-1.4-py2.5-macosx10.4.mpkg.zip</a></li>
+				<li><a href="http://www.pygame.org/ftp/pygame-1.8.1release-py2.5-macosx10.5.zip">pygame-1.8.1release-py2.5-macosx10.5.zip</a></li>
+			</ol>
+			 
+			<p>Thanks very much to <a href="http://geoffford.wordpress.com/2009/01/20/pygame-on-os-x-leopard/" target=_blank>this post</a> on Geoff Ford's blog.
+			</p>
+			
+			</span>
+
+		<h4>Windows</h4>
+			<span>
+			<p>Unlike Macintosh, Windows does not come with any installation of Python, so you will need to install Python 2.5.5 first (although this is not the latest release, PyGame says its the version that works best). So, install the following in this order:</p>
+			
+			<ol>
+				<li><a href="http://www.python.org/ftp/python/2.5.5/Python-2.5.5.tgz">Python 2.5.5</a></li>
+				<li><a href="http://pygame.org/ftp/pygame-1.9.1.win32-py2.5.msi">PyGame</a></li>
+			</ol> 
+			
+			<p class="small"><strong>NOTE:</strong> These instructions are not tried and therefore may not be true.</p>	
+			
+			</span>
+	</div>	
+
+
+	<br/>
+	<h3>Test the Install</h3>
+	<ol>
+	<li>First, open up Terminal (located in Applications/Utilities).</li>
+	<li>Type <code>python</code> and hit <code>Enter</code>.</li>
+	<li>If Python is properly installed, you will see some information come up and a final line consisting of <code>>>></code>. Type <code>import pygame</code> and hit <code>Enter</code>.</li>
+	<li>If nothing happens and another <code>>>></code> shows up, then kudos! PyGame install success. If you get an <code>ImportError: No module named pygame</code> then do some <a href="http://www.google.com/search?q=how+to+install+pygame&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a">Googling</a> to figure it out. Check the screenshots below.*</li>
+	</ol>
+	
+	<br/>
+	<p>Install success looks like this:</p>
+	<img src="pygamewin.png" alt="Install Success">
+	<p>Install fail and spelling mistakes look like this:</p>
+	<img src="pygamefail.png" alt="Install Fail">
+	<p class="small">* Your Terminal window will probably not be this color. <br/><br/>
+			
+	<h3>Run the Game</h3>
+	<p>Ok! If all of that is in order, it is time to:</p>
+	<h3 class="indent"><a href="screening.html">ANSWER SCREENING QUESTIONS</a></h3>
+	<h3 class="indent"><a href="nodoi-2.1.zip">DOWNLOAD NODOI 2:1</a></h3>
+	<p>Now follow these steps to run the game:</p>
+	<ol>
+		<li>Unzip <code>nodoi_sept9.zip</code></li>
+		<li>Head back to your Terminal window. If you still see the <code>>>></code> type <code>exit()</code> and hit <code>Enter</code>. You will then be back to something like <code>LSMBP:~ Lara$</code>.</li>
+		<li>To run the game you must be in the proper folder a.k.a. directory. Right now, you are in the home folder. First you need to see what is in your current directory. Type the command <code>ls</code> (stands for 'list') to see the folders within your current folder. Will look something like this:</li>
+		<img src="list.png" alt="list directories">
+		<li>You will need to be inside the folder 'nodoi-2.1' to run the game, which, according to the window above, we are not. To change directories we will use the command <code>cd</code> which, fittingly, stands for 'change directory'. If <code>nodoi-2.1</code> is located in Downloads, then type <code>Downloads/</code> and hit <code>Enter</code> to enter the directory. And if you use the command <code>ls</code> again you will see the contents of <code>Downloads</code>. On my computer, <code>nodoi-2.1</code> is located on the Desktop:</li>
+		<img src="cddesktop.png" alt="desktop">
+		<li>Ok! Now <code>cd nodoi-2.1</code>. </li>
+		<li>Finally type <code>python RUN_THIS.py</code> and hit <code>Enter</code>. If you see the game window appear...congratulations! If not, check for spelling mistakes and try again!</li>
+	</ol>
+	
+	<div class="section">
+		<h3>A Sample Run Through</h3>
+		<p>The video below shows a sample run through of the whole process, including gameplay. Some parts of the game are a bit confusing, esp. getting started, so this may or may not be relatively helpful.</p>
+	</div>
+	
+	<div class="section">
+		<h3>Additional Programs</h3>
+		<p>If you've made it the whole way here, you might be interested in some additional programs. They are run exactly the same way but do not require PyGame.</p>
+		<h3 class="indent"><a href="http://lnfnmo.net/appendingprogram.zip">APPEND STATEMENTS TO XML FILE</a></h3>
+		<h3 class="indent"><a href="http://lnfnmo.net/parsehtmlprogram.zip">GENERATE HTML PAGES LINE BY LINE</a></h3>
+		<p>These programs may seem bizarre, simple, and/or irrelevant, but I assure you they are none of those things.</p>
+	</div>
+	
+	<div class="section">
+		<h3>Ok, thanks!</h3>
+	</div>
+	
+</body>
+</html>

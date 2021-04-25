@@ -1,0 +1,140 @@
+/*land.php style */
+
+a:link img, a:visited img {
+	border:0px;
+	padding:.85em;
+	}
+
+#landglobal {
+	margin:60px auto;
+	width:1000px;
+	height:1000px;
+
+	}
+
+.menudiv {
+	top:80px;
+	height:300px;
+	width:50px;
+	position:relative;
+	z-index:3;
+	padding:0em 1em 0em 1em;
+	
+	}
+	
+
+#snapshot {
+	position:relative;
+	height:600px;
+	width:800px;
+	left:150px;
+	bottom:250px;
+	z-index:1;
+	
+	}
+	
+#homelink {
+	z-index:3;
+	position:relative;
+	bottom:440px;
+	padding:0em 0em 0em 1.3em;
+	
+	}
+
+/*nijah wordpress link style*/
+
+#nijah {
+	position:relative;
+	width:100px;
+	height:100px;
+	z-index:20;
+	background-color:yellow;
+	
+	}
+	
+#mysitelogo {
+	z-index:40;
+	
+	}
+/*******************************
+tig.php/nere.php/e.php style
+********************************/
+
+#gallerywrapper {
+	position:relative;
+	height:600px;
+	width:800px;
+	left:170px;
+	bottom:215px;
+	z-index:1;
+	
+	}
+
+div.img {
+	margin:2px;
+	height:auto;
+	width:auto;
+	float:left;
+	padding:0em 3em 0em 0em;
+	
+	}
+	
+div.img img {
+	display:inline;
+	margin:3px;
+
+	}
+ 
+img.magnify {
+	height:200px;
+	
+	}
+	
+#currentland {
+	padding:.85em;
+
+	}
+	
+/*******************************
+slideshow style
+********************************/
+
+#pointers {
+	z-index:5;
+	position:relative;
+	bottom:1250px;
+	left:560px;
+	padding:0em 0em 0em 1.3em;
+	
+	}
+
+.pointer_l {
+	position:relative;
+	
+	}
+
+.pointer_r {
+	position:relative;
+	
+	}
+
+#slideshow {
+	position:relative;
+	height:700px;
+	width:500px;
+	left:200px;
+	bottom:1075px;
+	z-index:3;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+	

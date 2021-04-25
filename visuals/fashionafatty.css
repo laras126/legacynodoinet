@@ -1,0 +1,140 @@
+a:link img, a:visited img {
+	border:0px;
+	padding:.85em;
+	}
+
+#fashionfattyglobal {
+	padding:1.8em;
+	height:800px;
+	width:1000px;
+	
+	}
+	
+	
+#snapshot {
+	position:relative;
+	height:700px;
+	width:500px;
+	z-index:1;
+	
+	}
+	
+#slideshow {
+	position:relative;
+	bottom:775px;
+	}
+	
+#directions {
+	position:relative;
+	left:300px;
+	top:20px;
+	z-index:8;
+	height:50px;
+	width:400px;
+
+	}
+	
+/**********************
+ n/a until further research
+
+#slideshow2 {
+	position:relative;
+	height:700px;
+	width:500px;
+	left:200px;
+	bottom:1030px;
+	z-index:4;
+	
+	}
+
+**********************/
+
+#homelink {
+	z-index:3;
+	position:relative;
+	bottom:170px;
+	padding:0em 2em;
+	right:30px;
+	
+	}
+
+#pointers {
+	z-index:5;
+	position:relative;
+	bottom:1250px;
+
+	
+	}
+
+.pointer_l2 {
+	position:relative;
+	
+	}
+
+.pointer_r2 {
+	position:relative;
+	
+	}
+
+
+/**********************
+style for draggable Facets
+**********************/
+
+.drag {
+	position:relative;
+	cursor:hand;
+	z-index:100;
+	left:55px;
+	
+	}
+
+.facesglobal {
+	position:relative;
+	height:500px;
+	width:150px;
+	left:340px;
+	bottom:750px;
+	/*background-color:blue;*/
+	
+	}
+	
+.mouthsglobal {
+	position:relative;
+	height:80px;
+	width:250px;
+	left:470px;
+	bottom:1270px;
+	/*background-color:green;*/
+	
+	}
+
+.titsglobal {
+	position:relative;
+	height:500px;
+	width:200px;
+	left:470px;
+	bottom:1270px;
+	/*background-color:grey;*/
+
+	}
+	
+.belliesglobal {
+	position:relative;
+	height:500px;
+	width:200px;
+	left:650px;
+	bottom:1800px;
+	/*background-color:purple;*/
+
+	}
+	
+.penisesglobal {
+	position:relative;
+	height:100px;
+	width:200px;
+	left:300px;
+	bottom:1895px;
+	/*background-color:yellow;*/
+	
+	}
